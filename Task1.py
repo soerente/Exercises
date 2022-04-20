@@ -16,7 +16,7 @@ class ListNode(object):
         self.val = x
         self.next = None
 
-# First Approach (Double Digit Addition)
+# First Approach (Double Digit Addition), Time Complexity: O(n), n=max(|nodes l1|,|nodes l2|)
 class Solution(object):
     def addTwoNumbers(self, l1, l2, c=0):
         # Fill this in
@@ -45,7 +45,7 @@ class Solution(object):
         return head
 
 
-# Second Approach (Convert to String)
+# Second Approach (Convert to String), Time Complexity: O(n), n=max(|nodes l1|,|nodes l2|)
 class Solution2(object):
     def addTwoNumbers(self, l1, l2, c=0):
         # Fill this in
